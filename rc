@@ -1,0 +1,6 @@
+#!/bin/bash
+
+/cygdrive/c/lcc/bin/lcc.exe -c $1.c
+/cygdrive/c/lcc/bin/lcclnk.exe $1.obj
+./$1.exe $2 $3 $4
+
